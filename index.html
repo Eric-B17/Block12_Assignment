@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+
+        <form onsubmit="return validateForm()">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <span id="error"></span>
+            <br>
+            <label for="password">Password:</label>
+            <input type="text" id="password" name="password">
+            <span id="error2"></span></label>
+            <br>
+            <input type="submit" value="Submit">
+            <br>
+        </form>
+
+        <script src="index.js"></script>
+    </body>
 </html>
+//
